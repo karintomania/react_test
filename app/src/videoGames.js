@@ -29,7 +29,7 @@ export default class VideoGames extends React.Component{
 			rate: 0,
 			orderBy: '',
 			order: 'ASC',
-    });
+    }, ()=> this.sortGames());
   }
 
 	handleChangeName(e){

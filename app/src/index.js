@@ -15,11 +15,11 @@ import './index.css';
 class Todo extends React.Component{
   render(){
     return (
-      <Router>
+      <Router basename={'/react_test'}>
         <Navigation/>
         <Routes>
-          <Route path="/contact" element={<Contact />}/>
-          <Route path="/" element={<VideoGames />}/>
+          <Route path='/contact'  element={<Contact />}/>
+          <Route path='/' element={<VideoGames />}/>
         </Routes>
       </Router>
     );

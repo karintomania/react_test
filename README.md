@@ -13,4 +13,16 @@ docker-compose run --rm react sh -c "npm install"
 docker-compose up -d  
 ```
 
-You can see the web site on: http://localhost:3000
+You can see the web site on: http://localhost:3000/react_test/
+
+
+# Deploy
+Build the project first.
+```
+npm run build
+```
+
+
+```
+git subtree push --prefix app/build origin gh-pages
+```
