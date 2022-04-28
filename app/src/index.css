@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Mulish:wght@500&display=swap');
+
+html{
+	background: #081221;
+	background: linear-gradient(0deg, #081221 0%, #081221 100%);
+	font-family: 'Mulish', sans-serif;
+	@apply text-letter;
+}
+
+.font-heading-white {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+.font-heading {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.input {
+	@apply w-full bg-inputbg p-2 
+}
+
+.btn-color {
+	@apply bg-accent hover:bg-accent-dark 
+}
