@@ -25,5 +25,5 @@ html{
 }
 
 .btn-color {
-	@apply bg-accent hover:bg-accent-dark 
+	@apply bg-accent hover:bg-accent-dark font-heading-white
 }
